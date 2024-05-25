@@ -1,0 +1,197 @@
+/* PROGRAM GEREJA */
+
+.body {
+    background-color: rgb(27, 27, 26);
+    font-family: "Lustria", serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Header */
+.posisi {
+    justify-content: end;
+}
+
+span {
+    font-family: "Lustria", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: aliceblue;
+    margin: 10px;
+    font-size: 15px;
+}
+span:hover{
+    color: rgb(212, 175, 55);
+}
+
+li a, .dropbtn{
+    display: inline-block;
+    color: #dedede;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover dropbtn{
+    background-color: rgb(31, 31, 31);
+    transition: all 0.5s ease;
+}
+
+li.dropdown{
+    display:inline-block;
+}
+
+.dropdown-content a{
+    color:#dedede;
+    font-size: 15px;
+    padding:12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(27, 27, 26);
+    min-width: 160px;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.dropdown-content a:hover{
+    color:rgb(212, 175, 55);
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+/* Header End */
+
+.judul h2{
+    color: #dedede;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 50px;
+}
+
+.konten1:hover, .konten2:hover, .konten3:hover{
+    transform: translateY(-20px);
+    transition: all 1s ease;
+}
+
+.konten1, .konten2, .konten3{
+    background-color: rgb(31, 31, 31);
+    box-shadow: 1px 1px 3px rgb(212, 175, 55);
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: 50px 0;
+    justify-content: center;
+}
+
+.isi{
+    text-align: justify;
+}
+
+.isi h1{
+    font-size: 25px;
+    color: rgb(212, 175, 55);
+}
+
+.isi p{
+    font-size: 15px;
+    color: #dedede;
+}
+
+.gambar{
+    max-width: 200px;
+    margin-top: 40px;
+    margin-left: 20px;
+    float: right;
+    border-radius: 15px;
+}
+
+.gambar2{
+    max-width: 200px;
+    margin-top: 40px;
+    margin-right: 20px;
+    float: left;
+}
+
+/* Footer */
+.footer-content{
+    background-color: rgb(37, 37, 37);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    flex-direction: column;
+    text-align: center;   
+}
+.footer-content h3 {
+ font-size: 1.8rem;
+ font-weight: 400;
+    text-transform: capitalize;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content a {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(212, 175, 55);
+}
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li {
+    margin: 0 10px;
+}
+.socials a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.socials a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover i {
+    color: rgb(212, 175, 55);
+}
+.footer-bottom {
+    width: 100vw;
+    padding : 10px 0px;
+    text-align: center;
+    background-color: rgb(31, 31, 31);
+}
+.footer-bottom p{
+    font-size: 14px;
+    margin-bottom: 5px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: aliceblue ;
+}
+
+.socials li a i{
+    font-size: 30px;
+}
+
+#time{
+    margin-top: 5px;
+}
+/* Footer End */
